@@ -1,0 +1,75 @@
+/* Universal Styles */
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: black;
+  background-color: white;
+  opacity: 0.9;
+  box-sizing: border-box;
+}
+
+.main-section {
+  position: relative;
+  top: 3.2rem;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+header {
+  position: fixed;
+  z-index: 100%;
+  width: 100%;
+  height: 64px;
+}
+
+header .logo {
+  flex: 1;
+  height: 32px;
+  margin-left: 10px;
+  float: left;
+  padding-top: 16px;
+}
+
+header #school-name {
+  font-family: Serif;
+  padding-bottom: 30px;
+  float: left;
+  background-image: linear-gradient(to right,#000000 40%, #b4b4b4 50%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+
+nav {
+  margin-right: 24px;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  float: right;
+  font-size: 16px;
+}
+
+nav li {
+  padding-left: 12px;
+}
+
+nav a {
+  vertical-align: center;
+  line-height: auto;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
+nav .nav-logo {
+  justify-content: center;
+  align-items: baseline;
+  float: right;
+  padding-left: 0px;
+  padding-top: 5px;
+}
