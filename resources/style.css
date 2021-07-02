@@ -1,7 +1,7 @@
 /* Universal Styles */
 html {
-  font-family: Helvetica;
-  font-size: 22px;
+  font-family: 'Merriweather Sans', 'Helvetica';
+  font-size: 16px;
   color: black;
   background-color: white;
   opacity: 0.9;
@@ -78,22 +78,23 @@ nav .nav-logo {
 
 .top-section {
   width: 100%;
-  display: inline-block;
+  display: flex;
   background-color: gray;
   align-self: center;
   text-align: left;
 }
 
 .top-text {
-  padding-top: 150px;
+  display: inline-block;
+  padding-top: 16rem;
   text-align: center;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #banner {
   width: 60%;
   float: left;
-  margin: 32px 24px;
+  margin: 2rem 1.5rem;
 }
 
 #button {
@@ -107,53 +108,57 @@ nav .nav-logo {
   font-size: 16px;
 }
 
-/* Bottom-Top Section */
+/* Information Section */
 
-.bottom-top-section {
-  width: 100%;
-  display: inline;
-  align-content: left;
-  align-items: flex-end;
+ #information {
+   display: inline-block;
+   padding: 2rem;
+ }
+
+ .practice {
+   float: left;
+   max-width: 60%;
+   padding: 2rem .8rem;
+   border-right: 1px solid gray;
+ }
+
+ #information-main {
+   max-width: 100%
+ }
+
+ .practice h1 {
+   display: inline;
+   padding-bottom: 2rem;
+ }
+
+ .practice-text {
+   display: inline-block;
+   flex-wrap: wrap;
+ }
+
+ .quote {
+   font-family: 'Helvetica';
+   font-size: .8rem;
+   padding-bottom: 2rem;
+ }
+
+.information-sideboxes {
+  max-width: 40%;
 }
 
-.bottom-top-section h1 {
-  padding-bottom: 24px;
-  flex-wrap: wrap;
-  max-width: 60%;
+.sidebox {
+  display: flex;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.bottom-top-section p {
-  flex-wrap: wrap;
-  max-width: 60%;
-}
-
-.menu-bar img {
-  object-fit: contain;
+.sidebox-image {
+  height: auto;
   max-width: 35%;
   float: left;
 }
 
-.menu-bar {
-  display: inline;
-  height: auto;
-  text-align: center;
-  text-indent: inherit;
-}
-
-#side-menu {
+.sidebox-content {
+  padding-bottom: .5rem
   float: right;
-  max-width: 40%;
-  vertical-align: top;
-}
-
-#information-main {
-  vertical-align: top;
-  max-width: 50%;
-  margin: 32px 12px;
-  object-fit: scale-down;
-}
-
-#keep-practicing {
-  max-width: 60%;
-  justify-content: left;
 }
