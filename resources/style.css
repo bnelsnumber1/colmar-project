@@ -73,3 +73,35 @@ nav .nav-logo {
   padding-left: 0px;
   padding-top: 5px;
 }
+
+/* Top Section */
+
+.top-section {
+  width: 100%;
+  display: inline-block;
+  background-color: gray;
+  align-self: center;
+  text-align: left;
+}
+
+.top-text {
+  padding-top: 150px;
+  text-align: center;
+}
+
+#banner {
+  width: 60%;
+  float: left;
+  margin: 32px 24px;
+}
+
+#button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 16px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
