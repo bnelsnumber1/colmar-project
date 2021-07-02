@@ -106,3 +106,54 @@ nav .nav-logo {
   display: inline-block;
   font-size: 16px;
 }
+
+/* Bottom-Top Section */
+
+.bottom-top-section {
+  width: 100%;
+  display: inline;
+  align-content: left;
+  align-items: flex-end;
+}
+
+.bottom-top-section h1 {
+  padding-bottom: 24px;
+  flex-wrap: wrap;
+  max-width: 60%;
+}
+
+.bottom-top-section p {
+  flex-wrap: wrap;
+  max-width: 60%;
+}
+
+.menu-bar img {
+  object-fit: contain;
+  max-width: 35%;
+  float: left;
+}
+
+.menu-bar {
+  display: inline;
+  height: auto;
+  text-align: center;
+  text-indent: inherit;
+}
+
+#side-menu {
+  float: right;
+  max-width: 40%;
+  vertical-align: top;
+}
+
+#information-main {
+  vertical-align: top;
+  max-width: 50%;
+  margin: 32px 12px;
+  object-fit: scale-down;
+}
+
+#keep-practicing {
+  max-width: 60%;
+  justify-content: left;
+}
