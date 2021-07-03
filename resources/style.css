@@ -122,7 +122,8 @@ nav .nav-logo {
 
  #information {
    display: inline-block;
-   padding: 2rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
  }
 
  .practice {
@@ -193,4 +194,58 @@ nav .nav-logo {
 
 #our-guest-lecture {
   background-color: #d3d3d3;
+}
+
+/* Start Learning */
+
+.middle-section {
+  background-color: #d3d3d3;
+  max-width: 100%
+}
+
+.middle-section h1 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.learning-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 4.5rem;
+}
+
+.learning-box {
+  display: block;
+  width: 33%;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.learning-image {
+  padding-bottom: .5rem;
+  max-width: 100%;
+}
+
+.learning-image img {
+  height: auto;
+  max-width: 100%;
+}
+
+.learning-content {
+  display: inline;
+  width: cover;
+}
+
+.learning-content {
+  padding: 1rem .5rem;
+}
+
+.learning-content h2 {
+  display: inline;
+}
+
+.learning-content p {
+  padding-left: .5rem;
+  font-size: .8rem;
 }
