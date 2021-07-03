@@ -77,31 +77,41 @@ nav .nav-logo {
 /* Top Section */
 
 .top-section {
-  width: 100%;
   display: flex;
-  background-color: gray;
-  align-self: center;
-  text-align: left;
+  background-color: #d3d3d3;
+  padding: 2rem 1.5rem;
 }
 
-.top-text {
-  display: inline-block;
-  padding-top: 16rem;
-  text-align: center;
-  justify-content: center;
+.top-section img {
+  width: 60%;
 }
 
 #banner {
-  width: 60%;
-  float: left;
-  margin: 2rem 1.5rem;
+  max-width: 100%;
+}
+
+.top-text {
+  display: inline;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  padding-top: 15rem;
+}
+
+.top-text h1 {
+  display: inline;
+  padding-bottom: 1.5rem;
+}
+
+.top-text p {
+  font-size: 1rem;
+  padding-left: 1.5rem;
 }
 
 #button {
   background-color: #555555;
   border: none;
   color: white;
-  padding: 16px 100px;
+  padding: 1rem 10rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -118,47 +128,69 @@ nav .nav-logo {
  .practice {
    float: left;
    max-width: 60%;
-   padding: 2rem .8rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   padding-right: 5rem;
    border-right: 1px solid gray;
  }
 
  #information-main {
-   max-width: 100%
+   max-width: 100%;
+   padding-right: 10rem;
+   padding-bottom: 2rem;
  }
 
  .practice h1 {
    display: inline;
-   padding-bottom: 2rem;
  }
 
  .practice-text {
    display: inline-block;
    flex-wrap: wrap;
+   padding-top: 1.5rem;
  }
 
  .quote {
    font-family: 'Helvetica';
    font-size: .8rem;
    padding-bottom: 2rem;
+   padding-top: 2rem;
  }
 
 .information-sideboxes {
-  max-width: 40%;
+  width: 40%;
+  display: inline;
+  margin-top: 2rem;
 }
 
 .sidebox {
   display: flex;
-  margin-left: 1.5rem;
+  padding-left: 1.5rem;
   margin-bottom: 1rem;
+  padding-top: 2rem;
 }
 
 .sidebox-image {
-  height: auto;
   max-width: 35%;
-  float: left;
+}
+
+.sidebox-image img {
+  height: auto;
+  max-width: 100%;
+}
+
+.sidebox-content h2 {
+  display: inline;
+}
+
+.sidebox-content p {
+  font-size: .9rem;
 }
 
 .sidebox-content {
-  padding-bottom: .5rem
-  float: right;
+    padding-left: 2rem;
+}
+
+#our-guest-lecture {
+  background-color: #d3d3d3;
 }
