@@ -340,3 +340,46 @@ nav .nav-logo {
 .footer-links {
   float: right;
 }
+
+/* Mobile Nav */
+
+@media only screen and (max-width: 480px) {
+
+  body {
+    margin: 0;
+  }
+
+  nav {
+    height: 4rem;
+  }
+
+  .desktop, .desktop a {
+    display: none;
+  }
+
+  #school-name {
+    display: none;
+  }
+
+  .mobile {
+    width: 100%;
+  }
+
+  header .content .mobile ul {
+    padding-left: 0px;
+  }
+
+  header nav ul {
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+  header nav li {
+      padding: 0 1.25rem;
+  }
+
+  header .content {
+      padding: 0;
+  }
+
+}
