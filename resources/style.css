@@ -255,6 +255,7 @@ nav .nav-logo {
 .bottom-section {
   display: inline-block;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .bottom-section h1 {
@@ -284,6 +285,7 @@ nav .nav-logo {
 .thesis-content p {
   display: inline-block;
   flex-wrap: wrap;
+  padding-bottom: 2rem;
 }
 
 .bottom-menu {
@@ -316,4 +318,25 @@ nav .nav-logo {
 
 .bottom-menu-content {
     padding-left: 2rem;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-family: Arial;
+  font-size: .8rem;
+  position: relative;
+  border-top: .5px solid;
+}
+
+#copyright {
+}
+
+.footer-links {
+  float: right;
 }
