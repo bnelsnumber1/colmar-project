@@ -249,3 +249,71 @@ nav .nav-logo {
   padding-left: .5rem;
   font-size: .8rem;
 }
+
+/* Thesis Exhibit */
+
+.bottom-section {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.bottom-section h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.bottom-left {
+  display: inline;
+  float: left;
+  max-width: 60%;
+}
+
+.thesis-video {
+  max-width: 100%;
+}
+
+.thesis-video video {
+  width: 100%;
+}
+
+.thesis-content h1 {
+  display: inline;
+}
+
+.thesis-content p {
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.bottom-menu {
+  max-width: 40%;
+  display: inline-block;
+}
+
+.thesis-box {
+  display: flex;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.bottom-menu-image {
+  max-width: 35%;
+}
+
+.bottom-menu-image img {
+  height: auto;
+  max-width: 100%;
+}
+
+.bottom-menu-content h2 {
+  display: inline;
+}
+
+.bottom-menu-content p {
+  font-size: .9rem;
+}
+
+.bottom-menu-content {
+    padding-left: 2rem;
+}
