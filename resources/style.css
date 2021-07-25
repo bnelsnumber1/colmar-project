@@ -43,19 +43,19 @@ header #school-name {
         color: transparent;
 }
 
-nav {
+ nav {
   margin-right: 24px;
   justify-content: center;
 }
 
-nav ul {
+ nav ul {
   display: flex;
   list-style: none;
   float: right;
   font-size: 16px;
 }
 
-nav li {
+ nav li {
   padding-left: 12px;
 }
 
@@ -72,6 +72,12 @@ nav .nav-logo {
   float: right;
   padding-left: 0px;
   padding-top: 5px;
+}
+
+@media only screen and (min-width: 481px) {
+    .mobile {
+        display: none;
+    }
 }
 
 /* Top Section */
@@ -396,25 +402,129 @@ nav .nav-logo {
 @media only screen and (max-width: 480px) {
 
   .top-section {
-    display: inline-block;
-    padding: 0 1rem;
+    display: block;
+    padding-bottom: 2rem;
   }
 
   #banner {
-    padding-bottom: 2rem;
-    max-width: 100%;
+    width: 100%;
   }
 
-  #banner-title h1 {
-    padding-bottom: 2rem;
-    font-size: 2rem;
+  .top-text #banner-title {
+    display: block;
+    text-align: left;
+    padding-left: 1rem;
   }
 
-  #banner-title {
+  .top-text p {
+    font-size: 1.5rem;
+    padding-top: 2rem;
     padding-bottom: 1.5rem;
   }
+}
 
-  #button {
+/*Information Section */
+
+@media only screen and (max-width: 480px) {
+
+  .information {
+    display: block;
+    padding: 1rem 0;
+    border-bottom: .5px solid #cfcfcf;
+  }
+
+  .practice {
+    display: none;
+  }
+
+  .information-sideboxes {
+    display: block;
+    padding: 2rem 0;
+  }
+
+  .sidebox {
+    display: block;
+    margin: 0;
     padding-bottom: 2rem;
+    padding-top: 0;
+  }
+
+  .sidebox-image img {
+       width: 100%;
+       height: 150px;
+   }
+
+   .sidebox-image {
+       max-width: 100%;
+   }
+
+   .content-image-mobile {
+       display: block;
+       max-width: 100%;
+   }
+
+   #our-guest-lecture {
+       display: block;
+       background-color: #fff;
+       padding: 0;
+   }
+
+   #our-guest-lecture img {
+       width: 100%;
+       height: 150px;
+   }
+}
+
+/* Start Learning Section */
+
+@media only screen and (max-width: 480px) {
+
+  .middle-section {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .learning-image {
+    max-width: 0;
+  }
+
+  .learning-menu {
+    padding-bottom: 2rem;
+  }
+
+  .learning-box {
+    margin-bottom: .5rem;
+  }
+
+  .learning-content p {
+    max-width: 0;
+  }
+
+  .learning-content h2 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* Thesis Exhibits */
+
+@media only screen and (max-width: 480px) {
+
+  .bottom-section {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .thesis-video {
+    padding-bottom: 2rem;
+  }
+}
+
+/* Footer */
+
+@media only screen and (max-width: 480px) {
+  footer {
+    padding: 1rem;
   }
 }
